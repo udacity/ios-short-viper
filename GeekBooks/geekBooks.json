@@ -1,0 +1,32 @@
+[
+    {
+        "authors": "Scott Chacon, Ben Straub",
+        "image_url": "https://hackershelf.com/media/cache/b4/24/b42409de128aa7f1c9abbbfa549914de.jpg",
+        "pdf_url": "https://progit2.s3.amazonaws.com/en/2015-03-06-439c2/progit-en.376.pdf",
+        "title": "Pro Git"
+    },
+    {
+        "authors": "Marijn Haverbeke ",
+        "image_url": "https://hackershelf.com/media/cache/e5/27/e527064919530802af898a4798318ab9.jpg",
+        "pdf_url": "https://eloquentjavascript.net/Eloquent_JavaScript.pdf",
+        "title": "Eloquent JavaScript"
+    },
+    {
+        "authors": "Allen B. Downey",
+        "image_url": "https://hackershelf.com/media/cache/97/bf/97bfce708365236e0a5f3f9e26b4a796.jpg",
+        "pdf_url": "https://greenteapress.com/compmod/thinkcomplexity.pdf",
+        "title": "Think Complexity"
+    },
+    {
+        "authors": "Allen B. Downey",
+        "image_url": "https://hackershelf.com/media/cache/46/61/46613d24474140c53ea6b51386f888ff.jpg",
+        "pdf_url": "https://greenteapress.com/thinkstats/thinkstats.pdf",
+        "title": "Think Stats"
+    },
+    {
+        "authors": "Sanjoy Mahajan",
+        "image_url": "https://hackershelf.com/media/cache/32/29/3229342ff48e816ca7e72442d05899ed.jpg",
+        "pdf_url": "https://mitpress.mit.edu/sites/default/files/titles/content/9780262514293_Creative_Commons_Edition.pdf",
+        "title": "Street-Fighting Mathematics"
+    }
+ ]
