@@ -15,6 +15,7 @@
 		EDA6E1E21DB9D4DC00EA3CD8 /* geekBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = EDA6E1E11DB9D4DC00EA3CD8 /* geekBooks.json */; };
 		EDA6E1E41DB9D57A00EA3CD8 /* JSONProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6E1E31DB9D57A00EA3CD8 /* JSONProcessing.swift */; };
 		EDA6E1E91DB9D5F000EA3CD8 /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6E1E81DB9D5F000EA3CD8 /* Entities.swift */; };
+		EDA6E1EF1DC1751A00EA3CD8 /* BookListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6E1EE1DC1751A00EA3CD8 /* BookListInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		EDA6E1E11DB9D4DC00EA3CD8 /* geekBooks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = geekBooks.json; sourceTree = "<group>"; };
 		EDA6E1E31DB9D57A00EA3CD8 /* JSONProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONProcessing.swift; sourceTree = "<group>"; };
 		EDA6E1E81DB9D5F000EA3CD8 /* Entities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entities.swift; sourceTree = "<group>"; };
+		EDA6E1EE1DC1751A00EA3CD8 /* BookListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +85,6 @@
 			children = (
 				EDA6E1E71DB9D5DB00EA3CD8 /* VIPER */,
 				EDA6E1E61DB9D58F00EA3CD8 /* Resources */,
-				EDA6E1E51DB9D58000EA3CD8 /* JSON */,
 				EDA6E1C11DB9D34D00EA3CD8 /* AppDelegate.swift */,
 			);
 			path = GeekBooks;
@@ -121,9 +122,27 @@
 		EDA6E1E71DB9D5DB00EA3CD8 /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
-				EDA6E1E81DB9D5F000EA3CD8 /* Entities.swift */,
+				EDA6E1ED1DC174DE00EA3CD8 /* displayBooks */,
+				EDA6E1EC1DC174D000EA3CD8 /* Common */,
 			);
 			name = VIPER;
+			sourceTree = "<group>";
+		};
+		EDA6E1EC1DC174D000EA3CD8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6E1E81DB9D5F000EA3CD8 /* Entities.swift */,
+				EDA6E1E51DB9D58000EA3CD8 /* JSON */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		EDA6E1ED1DC174DE00EA3CD8 /* displayBooks */ = {
+			isa = PBXGroup;
+			children = (
+				EDA6E1EE1DC1751A00EA3CD8 /* BookListInteractor.swift */,
+			);
+			name = displayBooks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA6E1E41DB9D57A00EA3CD8 /* JSONProcessing.swift in Sources */,
+				EDA6E1EF1DC1751A00EA3CD8 /* BookListInteractor.swift in Sources */,
 				EDA6E1E91DB9D5F000EA3CD8 /* Entities.swift in Sources */,
 				EDA6E1C21DB9D34D00EA3CD8 /* AppDelegate.swift in Sources */,
 			);

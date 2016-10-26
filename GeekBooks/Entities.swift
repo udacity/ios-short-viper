@@ -18,3 +18,23 @@ struct Book{
     let authors : [Author]
     let favorite = false
 }
+
+//MARK: - Protocols
+extension Book : Equatable{
+    
+    public static func ==(lhs: Book, rhs: Book) -> Bool{
+        
+        return (lhs.title == rhs.title) &&
+            (lhs.imageURL == rhs.imageURL) &&
+            (lhs.pdfURL == rhs.pdfURL) &&
+            (lhs.authors == rhs.authors) &&
+            (lhs.favorite == rhs.favorite)
+    }
+}
+
+extension Book : Comparable{
+    
+    public static func <(lhs: Book, rhs: Book) -> Bool{
+        return lhs.title < rhs.title
+    }
+}
