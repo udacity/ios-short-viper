@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EDA6E1C21DB9D34D00EA3CD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6E1C11DB9D34D00EA3CD8 /* AppDelegate.swift */; };
-		EDA6E1C41DB9D34D00EA3CD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6E1C31DB9D34D00EA3CD8 /* ViewController.swift */; };
 		EDA6E1C71DB9D34D00EA3CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA6E1C51DB9D34D00EA3CD8 /* Main.storyboard */; };
 		EDA6E1C91DB9D34D00EA3CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA6E1C81DB9D34D00EA3CD8 /* Assets.xcassets */; };
 		EDA6E1CC1DB9D34D00EA3CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA6E1CA1DB9D34D00EA3CD8 /* LaunchScreen.storyboard */; };
@@ -31,7 +30,6 @@
 /* Begin PBXFileReference section */
 		EDA6E1BE1DB9D34D00EA3CD8 /* GeekBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeekBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA6E1C11DB9D34D00EA3CD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDA6E1C31DB9D34D00EA3CD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDA6E1C61DB9D34D00EA3CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDA6E1C81DB9D34D00EA3CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDA6E1CB1DB9D34D00EA3CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,11 +85,6 @@
 				EDA6E1E61DB9D58F00EA3CD8 /* Resources */,
 				EDA6E1E51DB9D58000EA3CD8 /* JSON */,
 				EDA6E1C11DB9D34D00EA3CD8 /* AppDelegate.swift */,
-				EDA6E1C31DB9D34D00EA3CD8 /* ViewController.swift */,
-				EDA6E1C51DB9D34D00EA3CD8 /* Main.storyboard */,
-				EDA6E1C81DB9D34D00EA3CD8 /* Assets.xcassets */,
-				EDA6E1CA1DB9D34D00EA3CD8 /* LaunchScreen.storyboard */,
-				EDA6E1CD1DB9D34D00EA3CD8 /* Info.plist */,
 			);
 			path = GeekBooks;
 			sourceTree = "<group>";
@@ -116,7 +109,11 @@
 		EDA6E1E61DB9D58F00EA3CD8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EDA6E1C51DB9D34D00EA3CD8 /* Main.storyboard */,
+				EDA6E1CA1DB9D34D00EA3CD8 /* LaunchScreen.storyboard */,
+				EDA6E1C81DB9D34D00EA3CD8 /* Assets.xcassets */,
 				EDA6E1E11DB9D4DC00EA3CD8 /* geekBooks.json */,
+				EDA6E1CD1DB9D34D00EA3CD8 /* Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -236,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA6E1E41DB9D57A00EA3CD8 /* JSONProcessing.swift in Sources */,
-				EDA6E1C41DB9D34D00EA3CD8 /* ViewController.swift in Sources */,
 				EDA6E1E91DB9D5F000EA3CD8 /* Entities.swift in Sources */,
 				EDA6E1C21DB9D34D00EA3CD8 /* AppDelegate.swift in Sources */,
 			);
@@ -446,6 +442,7 @@
 				EDA6E1DD1DB9D34D00EA3CD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDA6E1DE1DB9D34D00EA3CD8 /* Build configuration list for PBXNativeTarget "GeekBooksTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +451,7 @@
 				EDA6E1E01DB9D34D00EA3CD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

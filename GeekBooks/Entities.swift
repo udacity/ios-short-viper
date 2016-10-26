@@ -16,5 +16,5 @@ struct Book{
     let imageURL : URL
     let pdfURL : URL
     let authors : [Author]
-    
+    let favorite = false
 }
