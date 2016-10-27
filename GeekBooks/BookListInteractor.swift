@@ -10,5 +10,20 @@ import Foundation
 
 class BookListInteractor{
     
+    private let sortedBooks : [Book]
+    
+    init(books: [Book]) {
+        sortedBooks = books.sorted()
+    }
+    
+    // book by position
+    subscript(index: Int)->Book{
+        return sortedBooks[index]
+    }
+    
+    //total books
+    var count : Int{
+        return sortedBooks.count
+    }
     
 }
