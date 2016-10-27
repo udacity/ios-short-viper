@@ -16,6 +16,9 @@
 		EDA6E1E41DB9D57A00EA3CD8 /* JSONProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6E1E31DB9D57A00EA3CD8 /* JSONProcessing.swift */; };
 		EDA6E1E91DB9D5F000EA3CD8 /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6E1E81DB9D5F000EA3CD8 /* Entities.swift */; };
 		EDA6E1EF1DC1751A00EA3CD8 /* BookListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6E1EE1DC1751A00EA3CD8 /* BookListInteractor.swift */; };
+		EDA6E1F11DC17BFF00EA3CD8 /* BookListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6E1F01DC17BFF00EA3CD8 /* BookListPresenter.swift */; };
+		EDA6E1F71DC18B0400EA3CD8 /* emptyBookCover.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA6E1F61DC18B0400EA3CD8 /* emptyBookCover.png */; };
+		EDA6E1F91DC18C2700EA3CD8 /* BookListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6E1F81DC18C2700EA3CD8 /* BookListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		EDA6E1E31DB9D57A00EA3CD8 /* JSONProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONProcessing.swift; sourceTree = "<group>"; };
 		EDA6E1E81DB9D5F000EA3CD8 /* Entities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entities.swift; sourceTree = "<group>"; };
 		EDA6E1EE1DC1751A00EA3CD8 /* BookListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListInteractor.swift; sourceTree = "<group>"; };
+		EDA6E1F01DC17BFF00EA3CD8 /* BookListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListPresenter.swift; sourceTree = "<group>"; };
+		EDA6E1F61DC18B0400EA3CD8 /* emptyBookCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyBookCover.png; sourceTree = "<group>"; };
+		EDA6E1F81DC18C2700EA3CD8 /* BookListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,7 @@
 		EDA6E1E61DB9D58F00EA3CD8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EDA6E1F61DC18B0400EA3CD8 /* emptyBookCover.png */,
 				EDA6E1C51DB9D34D00EA3CD8 /* Main.storyboard */,
 				EDA6E1CA1DB9D34D00EA3CD8 /* LaunchScreen.storyboard */,
 				EDA6E1C81DB9D34D00EA3CD8 /* Assets.xcassets */,
@@ -141,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				EDA6E1EE1DC1751A00EA3CD8 /* BookListInteractor.swift */,
+				EDA6E1F01DC17BFF00EA3CD8 /* BookListPresenter.swift */,
+				EDA6E1F81DC18C2700EA3CD8 /* BookListTableViewController.swift */,
 			);
 			name = displayBooks;
 			sourceTree = "<group>";
@@ -233,6 +242,7 @@
 				EDA6E1E21DB9D4DC00EA3CD8 /* geekBooks.json in Resources */,
 				EDA6E1CC1DB9D34D00EA3CD8 /* LaunchScreen.storyboard in Resources */,
 				EDA6E1C91DB9D34D00EA3CD8 /* Assets.xcassets in Resources */,
+				EDA6E1F71DC18B0400EA3CD8 /* emptyBookCover.png in Resources */,
 				EDA6E1C71DB9D34D00EA3CD8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +263,8 @@
 			files = (
 				EDA6E1E41DB9D57A00EA3CD8 /* JSONProcessing.swift in Sources */,
 				EDA6E1EF1DC1751A00EA3CD8 /* BookListInteractor.swift in Sources */,
+				EDA6E1F91DC18C2700EA3CD8 /* BookListTableViewController.swift in Sources */,
+				EDA6E1F11DC17BFF00EA3CD8 /* BookListPresenter.swift in Sources */,
 				EDA6E1E91DB9D5F000EA3CD8 /* Entities.swift in Sources */,
 				EDA6E1C21DB9D34D00EA3CD8 /* AppDelegate.swift in Sources */,
 			);
