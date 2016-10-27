@@ -33,7 +33,7 @@ class BookListPresenter{
             
             // Download the real image
             let img = try? Data(contentsOf: book.imageURL)
-            
+
             DispatchQueue.main.async {
                 if let img = img{
                     cell.imageView?.image = UIImage(data: img)
